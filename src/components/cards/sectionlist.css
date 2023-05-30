@@ -1,0 +1,38 @@
+.product-listing {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px;
+  padding: 5%;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  /* padding: 10px; */
+  display: flex;
+}
+
+.product-image {
+  width: 117px;
+  height: 139px;
+  object-fit: cover;
+  /* left: 164px;
+  top: 1170px; */
+  border-radius: 8px;
+}
+
+.product-details {
+  margin-top: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  margin-top: 5px;
+}
+
+.product-rating {
+  margin-top: 5px;
+}

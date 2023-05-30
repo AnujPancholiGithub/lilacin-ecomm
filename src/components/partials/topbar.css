@@ -1,0 +1,29 @@
+.topbar {
+  background-color: #3187ed;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.topbar .topbar_left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.topbar .topbar_right {
+  display: flex;
+  align-items: center;
+}
+
+.topbar select {
+  margin-left: 10px;
+}
