@@ -1,0 +1,119 @@
+.product-row {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.card-row {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.product-card {
+  flex: 0 0 250px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  transition: transform 0.3s;
+  flex-direction: column;
+}
+
+.product-card.active {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.product-name {
+  font-weight: bold;
+}
+
+.product-price {
+  margin-top: 5px;
+}
+
+.product-location {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.product-row-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 20%;
+  gap: 10%;
+  background-color: #e5e5e5;
+  min-height: 350px;
+}
+
+.product-row-handeler {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px;
+  gap: 15px;
+  background-color: #e5e5e5;
+}
+.product-row-handeler > h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+  width: 200px;
+}
+.product-row-handeler > .product-row-handeler-buttongroup {
+  background-color: yellowgreen;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.explore_class {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore_class button {
+  width: 131px;
+  height: 50px;
+  background: #00c6d7;
+  box-shadow: 0px 11px 27px rgba(0, 198, 215, 0.35);
+  border-radius: 12px;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.explore_class button:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 255, 0.3);
+}
